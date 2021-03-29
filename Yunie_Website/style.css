@@ -1,0 +1,339 @@
+html {
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>✍️</text></svg>")
+      16 0, auto;
+}
+
+body {
+    background-color: #FBFCFE;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    line-height: 28px;
+}
+
+.contents{
+    margin: 3% 18% 10% 18%;
+}
+
+.header {
+    background-color: #FEFFFF;
+    background-image: url(img/header4.png);
+    height: 600px;
+    border-top: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.head1 {
+    color: #0AE178;
+    font-family: 'Noto Serif KR', serif;
+    font-size: 150px;
+    letter-spacing: 50px;
+    position: relative;
+    text-align: center;
+    top: 50px;
+    left: 20px;
+}
+
+#KA {
+    color: #0AE178;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.head2 {
+    font-size: 25px;
+    color: #0F1428;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    position: relative;
+    text-align: center;
+    top: 100px;
+}
+
+.head3 {
+    font-size: 18px;
+    color: #0F1428;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    position: relative;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.title {
+    color: #0A28B4;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+    text-decoration-color: #FA4646;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.P1{
+    margin-inline-end: 10px;
+}
+
+.P2{
+    margin-inline-start: 10px;
+}
+
+.history{
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.learningIntro{
+    margin-bottom: 100px;
+}
+
+.learningTitles{
+    color: #0A28B4;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+}
+
+.learningTexts{
+    color: #0F1428;
+    text-align: center;
+}
+
+.consonants{
+    margin-bottom: 100px;
+}
+
+.vowels{
+    margin-bottom: 100px;
+}
+
+.characters{
+    margin-bottom: 100px;s
+}
+
+.drawing {
+    margin-bottom: 100px;
+}
+
+.senstences{
+    margin-bottom: 130px; 
+}
+
+
+#quotation{
+    color: #0AE178;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin: 0%;
+}
+
+#quottaion2{
+    color: #0F1428;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-block-end: 10px;
+    margin-block-start: 10px;
+    margin-bottom: 10px;
+    margin-inline-end: 0px;
+    margin-inline-start: 320px;
+    margin-left: 320px;
+    margin-right: 0px;
+    margin-top: 10px;
+}
+
+#titleH{
+    margin-block-end: 18.260000228881836px;
+    margin-block-start: 50px;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    margin-top: 50px;
+}
+
+.Sejong{
+    background-image: url(img/sejongK.png);
+    background-repeat: no-repeat;
+    height: 574px;
+}
+
+#HistoryP2{
+    margin-block-start: 380px;
+    margin-top: 260px;
+}
+
+#writing{
+    font-family: 'Nanum Pen Script', cursive;
+    color: #0AE178;
+    font-size: 150px;
+    text-align: center;
+    margin-bottom: 130px;
+    margin-top: 180px;
+}
+
+#writing2{
+    font-family: 'Nanum Pen Script', cursive;
+    color: #0AE178;
+    font-size: 50px;
+    text-align: center;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+#myCanvas {
+    border: 2px solid #0AE178;
+    text-align: center;
+    position: relative;
+  }
+
+
+#buttonreset {
+    margin: 10px;
+  }
+
+
+#vowelimg1{
+    background-image: url(img/vowel1.png);
+    height: 168px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-repeat: no-repeat;
+    background-position: center center;
+} 
+
+#vowelimg2{
+    background-image: url(img/vowel2.png);
+    height: 168px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-repeat: no-repeat;
+    background-position: center center;
+} 
+
+#vowelimg3{
+    background-image: url(img/vowel3.png);
+    height: 168px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-repeat: no-repeat;
+    background-position: center center;
+} 
+
+#vowelimg4{
+    background-image: url(img/vowel4.png);
+    height: 168px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-repeat: no-repeat;
+    background-position: center center;
+} 
+
+#consonantimg1{
+    background-image: url(img/consonant1.png);
+    height: 168px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#consonantimg2{
+    background-image: url(img/consonant2.png);
+    height: 168px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#consonantimg3{
+    background-image: url(img/consonant3.png);
+    height: 168px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#consonantimg4{
+    background-image: url(img/consonant4.png);
+    height: 168px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#character1{
+    background-image: url(img/character1.png);
+    height: 168px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#character2{
+    background-image: url(img/character2.png);
+    height: 168px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#character3{
+    background-image: url(img/character3.png);
+    height: 168px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#character4{
+    background-image: url(img/character4.png);
+    height: 168px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#character5{
+    background-image: url(img/character5.png);
+    height: 168px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#sentence1{
+    background-image: url(img/sentence1.png);
+    height: 175px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#sentence2{
+    background-image: url(img/sentence2.png);
+    height: 175px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
